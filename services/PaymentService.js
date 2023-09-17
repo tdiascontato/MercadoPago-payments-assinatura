@@ -5,7 +5,7 @@ class PaymentService {
     const url = "https://api.mercadopago.com/checkout/preferences";
     const img = "../img/613480.jpg";
     const body = {
-      payer_email: "test_user_2103390560@testuser.com",//email comprador
+      /*payer_email: "test_user_2103390560@testuser.com",//email comprador*/
       items: [
         {
           title: "Dummy Title",//dinamyc
